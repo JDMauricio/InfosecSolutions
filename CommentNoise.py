@@ -15,7 +15,7 @@ class CommentPrivacy:
 
 # Example usage
 if __name__ == "__main__":
-    epsilon = 1.5  # Privacy parameter (lower values provide stronger privacy)
+    epsilon = 0.1  # Privacy parameter (lower values provide stronger privacy)
     cp = CommentPrivacy(epsilon)
 
     original_comment = "I love this feature!"
